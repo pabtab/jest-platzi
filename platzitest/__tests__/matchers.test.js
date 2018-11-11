@@ -14,7 +14,7 @@ describe('comparadores', () => {
   })
 
   test('No son iguales', () => {
-    expect(user).not.toEqual(user2)
+    expect(user).not.toEqual({user: 'Pablo'})
   })
   
   
