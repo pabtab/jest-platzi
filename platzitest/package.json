@@ -14,5 +14,8 @@
     "test": "jest",
     "test:coverage": "jest --coverage",
     "test:watch": "jest --watchAll"
+  },
+  "dependencies": {
+    "axios": "^0.18.0"
   }
 }
